@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Traffic Scotland</string>
+    <string name="title_activity_googlemap">Map</string>
+    <string name="title_activity_roadmap">Map</string>
 </resources>

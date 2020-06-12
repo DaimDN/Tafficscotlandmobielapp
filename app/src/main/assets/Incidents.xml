@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rss version="2.0" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml">
+    <channel>
+        <title>Traffic Scotland - Current Incidents</title>
+        <description>Current incidents on the road network e.g. accidents</description>
+        <link>https://trafficscotland.org/currentincidents/</link>
+        <language />
+        <copyright />
+        <managingEditor />
+        <webMaster />
+        <lastBuildDate>Fri, 20 Mar 2020 08:20:20 GMT</lastBuildDate>
+        <docs>https://trafficscotland.org/rss/</docs>
+        <rating />
+        <generator>Traffic Scotland | www.trafficscotland.org</generator>
+        <ttl>5</ttl>
+        <item>
+            <title>M74 J7 (Larkhall) - B7019 - Accident</title>
+            <description>Lane 2 of the M74 Southbound between Junction 7 and Junction 8 is currently blocked due to a road traffic incident.  Motorists are advised to use caution on approach and allow extra time for their journey.</description>
+            <link>http://tscot.org/01c272724</link>
+            <georss:point>55.7456666961935 -3.96320280983579</georss:point>
+            <author />
+            <comments />
+            <pubDate>Fri, 20 Mar 2020 08:20:20 GMT</pubDate>
+        </item>
+        <item>
+            <title>M78 J7 (Larkhall) - B7019 - Accident</title>
+            <description>Lane 2 of the M74 Southbound between Junction 7 and Junction 8 is currently blocked due to a road traffic incident.  Motorists are advised to use caution on approach and allow extra time for their journey.</description>
+            <link>http://tscot.org/01c272724</link>
+            <georss:point>55.7456666961935 -3.96320280983579</georss:point>
+            <author />
+            <comments />
+            <pubDate>Fri, 20 Mar 2020 08:20:20 GMT</pubDate>
+        </item>
+    </channel>
+</rss

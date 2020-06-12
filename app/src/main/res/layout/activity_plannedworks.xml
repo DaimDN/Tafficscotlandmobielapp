@@ -6,28 +6,51 @@
         <TextView
             android:id="@+id/salutation"
             android:layout_width="fill_parent"
-            android:layout_height="60dp"
+            android:layout_height="40dp"
             android:layout_gravity="center_vertical|center_horizontal"
             android:fontFamily="@font/montserrat_bold"
             android:gravity="center|center_horizontal"
-            android:text="FUTURE WORK"
-            android:textColor="#3700B3"
+            android:text="FUTURE WORKS"
+            android:textColor="#E65100"
             android:textSize="26sp" />
 
-        <Button
-            android:id="@+id/startButton"
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical|center_horizontal"
-            android:background="@drawable/shape"
-            android:text="VIEW LOG"
-            android:textColor="@android:color/background_light" />
 
-        <TextView
-            android:id="@+id/rawDataDisplay"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Press the Button up"
-            android:textSize="20sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+
+                    <ListView
+                        android:id="@+id/listView"
+                        android:layout_width="match_parent"
+                        android:layout_height="600dp"
+                        android:layout_gravity="center" />
+
+                    <Button
+                        android:id="@+id/map"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:background="@drawable/shape"
+                        android:text="View on Map"
+                        android:textColor="@android:color/background_light" />
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
     </LinearLayout>
 </ScrollView>

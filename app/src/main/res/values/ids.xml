@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="description" type="id" />
+    <item name="link" type="id" />
+    <item name="georss" type="id" />
+    <item name="author" type="id" />
+    <item name="comments" type="id" />
+    <item name="pubdate" type="id" />
+</resources>
